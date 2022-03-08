@@ -1,0 +1,313 @@
+/* -------------------
+BASIC-SETUP
+------------------- */
+html,
+body {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  /* font-size: 20px; */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  
+}
+
+section {
+  margin: 0 auto;
+  padding: 7% 0% 4%;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+#who-are-we {
+  color: #fff;
+}
+
+.header h2 {
+  font-size: 45px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding-bottom: 80px;
+}
+.pres-header {
+  text-align: left;
+}
+.pres-header h2 {
+  margin-top: 4%;
+}
+.club-para p,
+.team-para p {
+  text-align: justify;
+  max-width: 500px;
+  margin: 10px auto;
+  font-weight: 300;
+}
+.club-para a button {
+  margin-top: 50px;
+}
+/* --------------------
+HEADER/HERO SECTION
+-------------------- */
+
+/* Header */
+
+.main-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #f9f1e9;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+.demo-1 .main-title {
+  text-transform: uppercase;
+  font-size: 4.2em;
+  letter-spacing: 0.1em;
+}
+.main-title .thin {
+  font-weight: 250;
+}
+@media only screen and (max-width: 768px) {
+  .demo-1 .main-title {
+    font-size: 3em;
+  }
+}
+
+#incharge-note{
+background-image: linear-gradient(rgba(187, 172, 172, 0.555), rgba(0, 0, 0, 0.555)),
+    url(/assets/img/pexels-tyler-lastovich-997443.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#about,
+
+#features {
+  background-image: linear-gradient(rgba(224, 204, 204, 0.555), rgba(0, 0, 0, 0.555)),
+    url(/assets/img/pexels-roberto-shumski-1903702.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#president-note {
+  padding-top: 11%;
+  background-image: linear-gradient(rgba(58, 56, 56, 0.8), rgba(46, 45, 45, 0.8)),
+    url(/assets/img/pexels-rahul-716398.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.video {
+  margin-top: 20px;
+}
+
+/*===========================
+ ===========note starts
+ ========================= */
+#president-note p {
+  color: #fff;
+}
+#president-note h4 {
+  /* font-style: italic; */
+  font-weight: 300;
+  font-size: 22px;
+  padding-bottom: 1em;
+}
+.note-1,
+.note-2 {
+  text-align: justify;
+}
+.note-1 {
+  max-width: 1000px;
+}
+.note-1 .designation,
+.note-1 h5 {
+  text-align: right;
+}
+
+.dis-pic {
+  width: 180px;
+  margin-bottom: 5px;
+}
+
+.mobile-display {
+  display: none;
+}
+
+/* =====================
+CARDS starts here
+===================== */
+
+
+
+/* =====================
+CARDS ends here
+===================== */
+
+/* =====================
+testimonials starts here
+===================== */
+
+/* =====================
+testimonials ends here
+===================== */
+
+/* ----------------
+scroll button
+---------------- */
+/* scroll button */
+
+
+/* =====================
+join us
+===================== */
+
+
+
+/*************footer animation start*****************/
+/* .new_footer_area {
+    height: 0;
+    background: #fbfbfd;
+} */
+
+/*************footer animation end*****************/
+
+/* Footer styling ends here */
+
+/* ==============================
+RESPONSIVE DESIGN home page
+============================== */
+@media (max-width: 1025px) {
+  .club-para p,
+  .team-para p {
+    font-size: 80%;
+  }
+  #video {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  #about {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .club-para p,
+  .team-para p {
+    font-size: 70%;
+  }
+  .team-para p {
+    margin-top: 0;
+  }
+  #video {
+    width: 300px;
+    height: 200px;
+  }
+  .card-text {
+    font-size: 80%;
+  }
+  .btn {
+    width: 100px;
+    height: auto;
+    font-size: 0.8rem;
+  }
+  .card-title {
+    font-size: 85%;
+  }
+  blockquote {
+    font-size: 40%;
+  }
+  #testimonials em {
+    font-size: 30%;
+  }
+  .carousel-item img {
+    max-width: 60px;
+  }
+  .main-title {
+    font-size: 170%;
+    white-space: nowrap;
+  }
+  .laptop-display {
+    display: none;
+  }
+  .mobile-display {
+    display: block;
+  }
+}
+@media (max-width: 426px) {
+  section {
+    padding-top: 15%;
+    padding-bottom: 10%;
+  }
+  .header h2 {
+    padding-bottom: 40px;
+    font-size: 40px;
+  }
+  #president-note h4 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .team-para p,
+  .video,
+  .card {
+    margin-top: 30px;
+  }
+
+  .note-1 p,
+  .note-2 p {
+    font-size: 12px;
+  }
+  .note-1 h5,
+  .note-2 h5 {
+    font-size: 18px;
+  }
+  .note-2 h4 {
+    font-size: 14px;
+  }
+  .designation {
+    font-size: 13px;
+  }
+  .dis-pic {
+    width: 120px;
+    margin-bottom: 5px;
+  }
+  .club-para {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .pres-header {
+    text-align: center;
+  }
+}
+
+@media (max-width: 321px) {
+  .mobile-display {
+    position: relative;
+    right: 15px;
+  }
+}
